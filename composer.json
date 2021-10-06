@@ -22,8 +22,5 @@
                 "Milito\\QueryFilter\\Providers\\MilitoQueryFilterServiceProvider"
             ]
         }
-    },
-    "platform": {
-        "php": "^7.2"
     }
 }
