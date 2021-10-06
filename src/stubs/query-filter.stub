@@ -1,0 +1,9 @@
+<?php
+namespace {{ namespace }};
+
+use Milito\QueryFilter\QueryFilter;
+
+class {{ class }} extends QueryFilter
+{
+
+}

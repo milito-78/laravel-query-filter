@@ -1,0 +1,26 @@
+{
+    "name": "milito/query-filter",
+    "description": "This is package to use query filter for each model. This package is made entirely for personal use. But if you are eager to use this, you can easily use this package by using readme. This is very simple and amateur :).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milito",
+            "email": "milad.purahmad78@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Milito\\QueryFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milito\\QueryFilter\\Providers\\MilitoQueryFilterServiceProvider"
+            ]
+        }
+    }
+}
