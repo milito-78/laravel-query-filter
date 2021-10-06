@@ -32,6 +32,7 @@ abstract class QueryFilter implements QueryFilterContract
 
     public function filters(): array
     {
+        $data = $this->request->all();
         return $this->request->all();
     }
 
