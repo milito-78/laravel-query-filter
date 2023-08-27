@@ -6,9 +6,22 @@ use Illuminate\Database\Eloquent\Builder;
 
 interface QueryFilterContract
 {
+
+    /**
+     * Apply filter on Builder
+     *
+     * Applying array filter on your model query filter.
+     *
+     * @param Builder $builder
+     * @return Builder
+     */
     public function apply(Builder $builder): Builder;
 
-    public function filters();
+    /**
+     * Return array of filters
+     *
+     * @return array
+     */
+    public function filters():array;
 
-    public function request();
 }

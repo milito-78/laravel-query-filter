@@ -1,0 +1,9 @@
+<?php
+namespace {{ namespace }};
+
+use Milito\QueryFilter\ArrayQueryFilter;
+
+class {{ class }} extends ArrayQueryFilter
+{
+
+}

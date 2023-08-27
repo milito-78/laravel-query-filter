@@ -51,9 +51,25 @@ class QueryFilterCreateCommand extends  GeneratorCommand
         ];
     }
 
+    public function getOptions(): array
+    {
+        return [
+            [
+                '--array',
+                '-a',
+                null,
+                'If set this option, it will be create an array filter class',
+            ]
+        ];
+    }
+
     protected function getStub(): string
     {
-        return __DIR__.'/../../stubs/query-filter.stub';
+        if ($this->option("array")) {
+            return __DIR__.'/../../stubs/array-query-filter.stub';
+        }else{
+            return __DIR__.'/../../stubs/query-filter.stub';
+        }
     }
 
     protected function getDefaultNamespace($rootNamespace): string

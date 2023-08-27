@@ -19,6 +19,10 @@ class MilitoQueryFilterServiceProvider extends ServiceProvider
         ],'query-filter-stubs');
 
         $this->publishes([
+            __DIR__.'/../stubs/array-query-filter.stub' => base_path('stubs/array-query-filter.stub')
+        ],'query-filter-stubs');
+
+        $this->publishes([
             __DIR__.'/../Console/Commands/QueryFilterCreateCommand.php' => app_path('Console/Commands/QueryFilterCreateCommand.php')
         ],'query-filter-command');
 
