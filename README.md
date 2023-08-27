@@ -1,6 +1,5 @@
 [![Latest Stable Version](https://poser.pugx.org/milito/query-filter/version)](https://packagist.org/packages/milito/query-filter)
 [![Total Downloads](https://poser.pugx.org/milito/query-filter/downloads)](https://packagist.org/packages/milito/query-filter)
-[![Latest Unstable Version](https://poser.pugx.org/milito/query-filter/v/unstable)](https://packagist.org/packages/milito/query-filter)
 [![License](https://poser.pugx.org/milito/query-filter/license)](https://packagist.org/packages/milito/query-filter)
 # Laravel Query filter package
 A simple package for adding your query filter files to project.
